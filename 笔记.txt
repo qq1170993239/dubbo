@@ -1,0 +1,6 @@
+dubbo常用的两大协议：
+1.http Rest Api--主要针对通用项目（只要支持http调用即可，即跨语言间的通讯也可以）
+2.RPC/Dubbo协议--主要针对于同种结构的项目
+dubbo两大配置文件：
+spring-dubbo.xml--1.注解发布服务的包2.支持两种调用方式协议3.消费服务配置
+dubbo.properties--主要配置协议端口
